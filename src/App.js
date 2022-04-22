@@ -1,3 +1,5 @@
+import Header from "./components/Header"
+
 function App() {
 
   const title = 'Invictus Digital'
@@ -25,6 +27,7 @@ function App() {
 
   return (
     <div className="container">
+      <Header text = "Invictus Blog"/>
       <h1> {title.toUpperCase()} </h1>
       <p> {body} </p>
 
